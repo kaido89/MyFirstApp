@@ -17,7 +17,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
         // Capture the layout's TextView and set the string as its text
-        TextView textView = findViewById(R.id.textView);
-        textView.setText(message);
+        TextView ola = (TextView)findViewById(R.id.textView);
+        ola.setText(message);
     }
 }
