@@ -23,7 +23,7 @@
         android:id="@+id/editText"
         android:layout_width="213dp"
         android:layout_height="51dp"
-        android:layout_marginLeft="36dp"
+        android:layout_marginLeft="32dp"
         android:layout_marginTop="288dp"
         android:ems="10"
         android:hint="@string/edit_message"
@@ -37,7 +37,6 @@
         android:layout_height="72dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:contentDescription="@String/ImagemCaixa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cgd" />
@@ -97,9 +96,14 @@
         android:id="@+id/button3"
         android:layout_width="320dp"
         android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
         android:text="@string/use_show"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="112dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
 
